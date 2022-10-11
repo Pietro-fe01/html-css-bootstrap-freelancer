@@ -1,5 +1,5 @@
 :root{
-    --ms-header-color: #2c3e50;
+    --ms-header-color: #2c3e50; /*used for copyright too*/
     --ms-section-odd-color: #1abc9c;
     --ms-footer-color: #3a546d;
 }
@@ -63,8 +63,22 @@ footer {
     color: white;
 }
 
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 footer span:nth-child(1){
     color: #1abc9c;
+}
+
+footer .ms-copyright {
+    background-color: var(--ms-header-color);
 }
 
 /*------------
