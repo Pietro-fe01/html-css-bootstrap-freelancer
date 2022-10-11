@@ -1,6 +1,10 @@
 :root{
     --ms-header-color: #2c3e50;
-    --ms-section-onre-color: #1abc9c;
+    --ms-section-odd-color: #1abc9c;
+}
+
+main section:nth-child(odd){
+    background-color: var(--ms-section-odd-color);
 }
 
 /*-----------
@@ -27,7 +31,6 @@ header .ms-header-nav ul a{
     MAIN SEC-1
 ---------------*/
 main #ms-hero{
-    background-color: var(--ms-section-onre-color);
     color: white;
 }
 
