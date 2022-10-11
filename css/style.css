@@ -63,6 +63,13 @@ main .ms-portfolio__bottom img{
 }
 
 /*--------------
+    MAIN SEC-3
+---------------*/
+#ms-about{
+    color: white;
+}
+
+/*--------------
     MAIN SEC-4
 ---------------*/
 [class*="__contact-me"] {
@@ -128,6 +135,10 @@ footer .ms-copyright {
 #ms-portfolio .ms-star:before,
 #ms-portfolio .ms-star:after{
     background-color: black;
+}
+
+#ms-about .ms-star i {
+    color: white;
 }
 
 
