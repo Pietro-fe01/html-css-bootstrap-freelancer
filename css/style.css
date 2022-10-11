@@ -44,6 +44,16 @@ main #ms-hero #ms-hero__img{
 main .ms-portfolio__bottom img{
     max-width: 100%;
 }
+
+/*--------------
+    MAIN SEC-4
+---------------*/
+[class*="__contact-me"] {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: .9375rem;
+    margin-bottom: .625rem;
+}
+
 /*------------
     FOOTER 
 -------------*/
@@ -52,5 +62,11 @@ main .ms-portfolio__bottom img{
     BUTTON 
 -------------*/
 #ms-download-button{
-    background-color: white;
+    color: white;
+    border: 1px solid white;
+}
+
+#ms-send-button{
+    background-color: #1abc9c;
+    color: white;
 }
