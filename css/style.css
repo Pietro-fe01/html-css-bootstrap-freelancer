@@ -59,6 +59,7 @@ main #ms-hero #ms-hero__title{
 ---------------*/
 main .ms-portfolio__bottom img{
     max-width: 100%;
+    border-radius: 1.25rem;
 }
 
 /*--------------
@@ -112,7 +113,6 @@ footer .ms-copyright {
 /*------------
     STARS 
 -------------*/
-
 .ms-star:before,
 .ms-star:after{
     content: "";
@@ -123,6 +123,11 @@ footer .ms-copyright {
     position: relative;
     top: -0.5rem;
     border-radius: 3.125rem;
+}
+
+#ms-portfolio .ms-star:before,
+#ms-portfolio .ms-star:after{
+    background-color: black;
 }
 
 
