@@ -38,7 +38,9 @@ main #ms-hero #ms-hero__img{
 /*--------------
     MAIN SEC-2
 ---------------*/
-
+main .ms-portfolio__bottom img{
+    max-width: 100%;
+}
 /*------------
     FOOTER 
 -------------*/
