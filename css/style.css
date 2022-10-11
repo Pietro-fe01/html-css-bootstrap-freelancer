@@ -28,6 +28,11 @@ header .ms-header-nav ul a{
 ---------------*/
 main #ms-hero{
     background-color: var(--ms-section-onre-color);
+    color: white;
+}
+
+main #ms-hero #ms-hero__img{
+    max-width: 40%;
 }
 
 /*------------
