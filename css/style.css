@@ -47,3 +47,10 @@ main .ms-portfolio__bottom img{
 /*------------
     FOOTER 
 -------------*/
+
+/*------------
+    BUTTON 
+-------------*/
+#ms-download-button{
+    background-color: white;
+}
