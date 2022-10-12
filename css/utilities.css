@@ -7,7 +7,7 @@
 }
 
 /*------------
-    BUTTON 
+    BUTTONS
 -------------*/
 #ms-download-button{
     color: white;
@@ -22,6 +22,10 @@
 /*------------
     STARS 
 -------------*/
+.ms-star{
+    margin-bottom: 1rem;
+}
+
 .ms-star::before,
 .ms-star::after{
     content: "";

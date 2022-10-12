@@ -7,10 +7,6 @@
     --ms-menu-bars-color: #888888;
 }
 
-main section:nth-child(odd){
-    background-color: var(--ms-section-odd-color);
-}
-
 /*-----------
     HEADER 
 ------------*/
@@ -32,6 +28,13 @@ header .ms-header-nav ul{
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
+}
+
+/*--------------
+      MAIN
+---------------*/
+main section:nth-child(odd){
+    background-color: var(--ms-section-odd-color);
 }
 
 /*--------------
