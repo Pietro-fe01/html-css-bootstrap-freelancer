@@ -11,5 +11,20 @@
 
 #ms-send-button:hover{
     text-decoration: underline;
-    box-shadow: 0px 0px 40px 0px #1abc9c;
+    box-shadow: 0px 0px 20px 0px #1abc9c;
+}
+
+/*------------
+SOCIAL ICONS
+-------------*/
+.ms-social-icon:hover{
+    box-shadow: 0px 0px 9px 2px #fff;
+}
+
+/*-------------------------
+FOOTER - ABOUT FREELANCER
+--------------------------*/
+footer #ms-team:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
