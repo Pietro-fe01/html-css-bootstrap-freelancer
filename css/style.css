@@ -103,8 +103,8 @@ footer .ms-copyright {
 /*------------
     STARS 
 -------------*/
-.ms-star:before,
-.ms-star:after{
+.ms-star::before,
+.ms-star::after{
     content: "";
     width: 12%;
     height: .125rem;
@@ -115,13 +115,18 @@ footer .ms-copyright {
     border-radius: 3.125rem;
 }
 
-#ms-portfolio .ms-star:before,
-#ms-portfolio .ms-star:after{
+#ms-portfolio .ms-star::before,
+#ms-portfolio .ms-star::after{
     background-color: black;
 }
 
 #ms-about .ms-star i {
     color: white;
+}
+
+#ms-contact-me .ms-star::before,
+#ms-contact-me .ms-star::after{
+    background-color: black;
 }
 
 
