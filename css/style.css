@@ -52,10 +52,15 @@ main .ms-portfolio__bottom img{
 /*--------------
     MAIN SEC-4
 ---------------*/
-[class*="__contact-me"] {
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: .9375rem;
-    margin-bottom: .625rem;
+.ms-contact-me__bottom .form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.ms-contact-me__bottom .form-control:focus{
+border-color: inherit;
+box-shadow: none;
 }
 
 /*------------

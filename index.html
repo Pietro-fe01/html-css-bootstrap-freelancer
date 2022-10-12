@@ -132,11 +132,29 @@
                 </div>
             </div>
             <div class="ms-contact-me__bottom ms-container-small">
-                <div class="ms-name__contact-me">Name</div>
-                <div class="ms-email__contact-me">Email Address</div>
-                <div class="ms-phone__contact-me">Phone Number</div>
-                <div class="ms-message__contact-me">Message</div>
-                <button id="ms-send-button" class="btn">Send</button>
+                <form action="">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required no-focus>
+                        <label for="floatingInput">First and Last name</label>
+                    </div>
+            
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+            
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="floatingInput" placeholder="name@example.com" pattern="[0-9]{10}" maxlength="10" required>
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+            
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+            
+                    <button type="submit" id="ms-send-button" class="btn mt-4">Send</button>
+                </form>
             </div>
         </section>
         <!-- /Contact Me - section 4 -->
