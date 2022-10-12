@@ -30,7 +30,7 @@
 .ms-star::after{
     content: "";
     width: 12%;
-    height: .125rem;
+    height: .25rem;
     background-color: white;
     display: inline-block;
     position: relative;
