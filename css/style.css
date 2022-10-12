@@ -35,10 +35,6 @@ header .ms-header-nav ul{
 /*--------------
     MAIN SEC-1
 ---------------*/
-main #ms-hero{
-    color: white;
-}
-
 main #ms-hero #ms-hero__img{
     max-width: 15.625rem;
 }
@@ -56,13 +52,6 @@ main .ms-portfolio__bottom img{
 }
 
 /*--------------
-    MAIN SEC-3
----------------*/
-#ms-about{
-    color: white;
-}
-
-/*--------------
     MAIN SEC-4
 ---------------*/
 [class*="__contact-me"] {
@@ -76,7 +65,6 @@ main .ms-portfolio__bottom img{
 -------------*/
 footer {
     background-color: var(--ms-footer-color);
-    color: white;
 }
 
 footer ul {
@@ -84,13 +72,15 @@ footer ul {
     padding: 0;
 }
 
-footer ul li a{
-    text-decoration: none;
-    color: white;
-}
-
 footer span:nth-child(1){
     color: #1abc9c;
+}
+
+footer .ms-social-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 footer .ms-copyright {
