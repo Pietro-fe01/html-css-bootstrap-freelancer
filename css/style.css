@@ -1,3 +1,5 @@
+@import url("utilities.css");
+
 :root{
     --ms-header-color: #2c3e50; /*used for copyright too*/
     --ms-section-odd-color: #1abc9c;
@@ -85,48 +87,6 @@ footer .ms-social-icon{
 
 footer .ms-copyright {
     background-color: var(--ms-header-color);
-}
-
-/*------------
-    BUTTON 
--------------*/
-#ms-download-button{
-    color: white;
-    border: 1px solid white;
-}
-
-#ms-send-button{
-    background-color: #1abc9c;
-    color: white;
-}
-
-/*------------
-    STARS 
--------------*/
-.ms-star::before,
-.ms-star::after{
-    content: "";
-    width: 12%;
-    height: .125rem;
-    background-color: white;
-    display: inline-block;
-    position: relative;
-    top: -0.5rem;
-    border-radius: 3.125rem;
-}
-
-#ms-portfolio .ms-star::before,
-#ms-portfolio .ms-star::after{
-    background-color: black;
-}
-
-#ms-about .ms-star i {
-    color: white;
-}
-
-#ms-contact-me .ms-star::before,
-#ms-contact-me .ms-star::after{
-    background-color: black;
 }
 
 

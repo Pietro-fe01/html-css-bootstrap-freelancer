@@ -1,0 +1,49 @@
+/*------------
+  CONTAINER 
+-------------*/
+.ms-container-small{
+    max-width: 75%;
+    margin: auto;
+}
+
+/*------------
+    BUTTON 
+-------------*/
+#ms-download-button{
+    color: white;
+    border: 1px solid white;
+}
+
+#ms-send-button{
+    background-color: #1abc9c;
+    color: white;
+}
+
+/*------------
+    STARS 
+-------------*/
+.ms-star::before,
+.ms-star::after{
+    content: "";
+    width: 12%;
+    height: .125rem;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: -0.5rem;
+    border-radius: 3.125rem;
+}
+
+#ms-portfolio .ms-star::before,
+#ms-portfolio .ms-star::after{
+    background-color: black;
+}
+
+#ms-about .ms-star i {
+    color: white;
+}
+
+#ms-contact-me .ms-star::before,
+#ms-contact-me .ms-star::after{
+    background-color: black;
+}
