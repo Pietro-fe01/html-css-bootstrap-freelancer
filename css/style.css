@@ -1,4 +1,5 @@
 @import url("utilities.css");
+@import url("effects.css");
 
 :root{
     --ms-header-color: #2c3e50; /*used for copyright too*/

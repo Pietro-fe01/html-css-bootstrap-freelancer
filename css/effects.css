@@ -1,0 +1,15 @@
+/*------------
+    BUTTONS
+-------------*/
+#ms-download-button:hover{
+    box-shadow: 0px 0px 45px 2px #fff;
+}
+
+#ms-download-button:hover span{
+    text-decoration: underline;
+}
+
+#ms-send-button:hover{
+    text-decoration: underline;
+    box-shadow: 0px 0px 40px 0px #1abc9c;
+}
