@@ -58,11 +58,13 @@ main .ms-portfolio__bottom img{
     border: none;
     border-bottom: 1px solid black;
     border-radius: 0;
+    cursor: pointer;
 }
 
 .ms-contact-me__bottom .form-control:focus{
 border-color: inherit;
 box-shadow: none;
+background-color: #1abc9c
 }
 
 /*------------
